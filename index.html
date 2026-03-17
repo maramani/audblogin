@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DB Login</title>
+</head>
+
+<body>
+
+<h2>Database Login</h2>
+
+Enter Password:<br><br>
+<input type="password" id="pass">
+<button onclick="check()">Login</button>
+
+<script>
+function check() {
+
+var p=document.getElementById("pass").value;
+
+if(p=="db2026")
+{
+ window.location.href="https://forms.gle/YOURFORM";
+}
+else
+{
+ alert("Wrong Password");
+}
+
+}
+</script>
+
+</body>
+</html>
